@@ -12,16 +12,15 @@ const MainNav = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);
     const [bg, setBg] = useState(false);
 
-
-    window.addEventListener('scroll', () => {
-        if (isBrowser) {
+    if (isBrowser) {
+        window.addEventListener('scroll', () => {
             if (window.scrollY >= 200) {
                 setBg(true);
             } else {
                 setBg(false);
             }
-        }
-    });
+        });
+    }
 
     const menuHandler = () => {
         setToggleMenu(prevState => !prevState);
