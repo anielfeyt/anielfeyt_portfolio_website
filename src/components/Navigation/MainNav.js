@@ -6,16 +6,20 @@ import Logo from '../../images/icon.png';
 
 import './MainNav.scss';
 
+const isBrowser = typeof window !== "undefined";
+
 const MainNav = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);
     const [bg, setBg] = useState(false);
 
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY >= 200) {
-            setBg(true);
-        } else {
-            setBg(false);
+        if (isBrowser) {
+            if (window.scrollY >= 200) {
+                setBg(true);
+            } else {
+                setBg(false);
+            }
         }
     });
 
