@@ -21,7 +21,7 @@ const IndexPage = () => {
                 <h1 initial="hidden">Nice to meet you.</h1>
                 <h1>I'm <span className="purple-text">Aniel</span>.</h1>
                 <h3>Web Developer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero corporis itaque porro temporibus quisquam voluptatibus totam et, quae enim sint excepturi obcaecati aspernatur sequi at labore, eligendi, molestiae nisi aperiam.</p>
+                <p>I’m a young developer, motivated to create good looking websites and custom solutions for clients in this never-ending journey of learning new technologies and skills. I currently work as a developer from home while completing my final year of my qualification via the University of South Africa.</p>
                 <div className="social-links">
                   <a href="https://github.com/anielfeyt" target="_blank" rel="noreferrer">
                     <GitHubIcon fill="#6e1ff8" width="30px" />
@@ -50,9 +50,8 @@ const IndexPage = () => {
                   <h2>What I've been up to.</h2>
                   <h3>About me</h3>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nostrum cum maxime aliquid accusantium, assumenda ullam excepturi sit, aut explicabo modi incidunt corrupti sed laboriosam eos illo debitis mollitia. Harum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque minus dolore error! Ipsam laboriosam tenetur totam distinctio? Aspernatur ullam doloremque sequi odio quisquam laudantium at earum, quibusdam recusandae praesentium.</p>
-                <button className="btn">Download CV</button>
+                <p>Anything from custom sites using HTML, CSS and JavaScript to more modern solutions and workflows like ReactJs, GatsbyJs or WordPress.</p>
+                <p>Besides my love for web technologies and other tech, I also have a passion for photography and art. In my free time I like to draw or paint some portraits, do a bit of sculpting or play some Minecraft to relax.</p>
               </div>
             </div>
           </div>
