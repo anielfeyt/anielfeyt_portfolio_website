@@ -1,0 +1,63 @@
+@media screen and (max-width: 1050px) {
+    section {
+        padding: 160px 25px;
+    }
+
+    .intro-content {
+        max-width: unset;
+    }
+
+    .into-image__container {
+        right: 50%;
+        transform: translateX(50%);
+        img {
+            opacity: 0.6;
+        }
+    }
+
+    .about-image__container {
+        display: none;
+    }
+
+    .intro-content__container {
+        @include dynamic-grid(1, 4px);
+    }
+
+    .about-content__container {
+        @include dynamic-grid(1, 4px);
+    }
+    
+    .skills-content__container {
+        @include dynamic-grid(2, 4px)
+    }
+    
+    .projects-grid__container {
+        @include dynamic-grid(2);
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px) { 
+    .main-navigation__nav {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+    section {
+        padding: 100px 25px;
+    }
+
+    .about__header, .skills__header, .projects__header, .intro-content, .about-content {
+        text-align: center;      
+    }
+}
+
+@media screen and (max-width: 374px) { 
+    .skills-content__container {
+        @include dynamic-grid(1, 4px)
+    }
+}

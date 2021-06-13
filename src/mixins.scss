@@ -1,0 +1,15 @@
+@mixin dynamic-grid($number, $gap: 0, $align: unset) {
+            display: grid;
+            grid-template-columns: repeat($number, 1fr);
+            
+
+            @if $gap != 0 {
+                gap: $gap;
+            }
+
+            @if $align != unset {
+                justify-items: $align;
+            }
+}
+
+

@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Aniel Feyt Portfolio",
+    title: "Aniel Feyt",
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-gatsby-cloud"],
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-gatsby-cloud"]
 };

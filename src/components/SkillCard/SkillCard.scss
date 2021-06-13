@@ -1,0 +1,13 @@
+@import '../../colors.scss';
+
+.skill-card__container {
+    background-color: $primary-black;
+    color: #fff;
+    padding: 20px;
+    
+
+    .skill-card__header {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
