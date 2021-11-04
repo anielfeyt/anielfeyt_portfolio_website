@@ -5,6 +5,7 @@ import ProjectGrid from '../components/ProjectGrid/ProjectGrid';
 import { InstagramIcon, LinkedInIcon, GitHubIcon } from '../components/Icons/Icons';
 import Img1 from '../images/img01.png';
 import Img2 from '../images/img02.png';
+import { Helmet } from "react-helmet";
 
 import '../global.scss';
 
@@ -12,6 +13,10 @@ const IndexPage = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Aniel Feyt</title>
+        <script id="mcjs">!function(c,h,i,m,p){m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/19dcbc70aa5cde569dddebd0b/b3b9e6857832e2bf6f6709e81.js");</script>
+      </Helmet>
       <MainNav />
       <main>
         <section id="intro">
