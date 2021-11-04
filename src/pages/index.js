@@ -25,7 +25,8 @@ const IndexPage = () => {
                 <h1 initial="hidden">Nice to meet you.</h1>
                 <h1>I'm <span className="purple-text">Aniel</span>.</h1>
                 <h3>Web Developer</h3>
-                <p>I’m a young developer, motivated to create good looking websites and custom solutions for clients in this never-ending journey of learning new technologies and skills. I currently work as a developer from home while completing my final year of my qualification via the University of South Africa.</p>
+                {/* <p>I’m a young developer, motivated to create good looking websites and custom solutions for clients in this never-ending journey of learning new technologies and skills. I currently work as a developer from home while completing my final year of my qualification via the University of South Africa.</p> */}
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore laboriosam repudiandae incidunt eius laudantium ad voluptatum aliquid corporis quisquam quia accusantium, quaerat illum est nulla blanditiis possimus quam nam saepe eum. Pariatur commodi similique impedit sed fugiat blanditiis expedita amet vitae. Molestias, dolores quam et nobis maxime doloribus animi sed?</p>
                 <div className="social-links">
                   <a href="https://github.com/anielfeyt" target="_blank" rel="noreferrer">
                     <GitHubIcon fill="#6e1ff8" width="30px" />
@@ -42,7 +43,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="into-image__container">
-            <img src={Img1} alt="Aniel Feyt" />
+            {/* <img src={Img1} alt="Aniel Feyt" /> */}
           </div>
         </section>
 
@@ -54,13 +55,14 @@ const IndexPage = () => {
                   <h2>What I've been up to.</h2>
                   <h3>About me</h3>
                 </div>
-                <p>Anything from custom sites using HTML, CSS and JavaScript to more modern solutions and workflows like ReactJs, GatsbyJs or WordPress.</p>
-                <p>Besides my love for web technologies and other tech, I also have a passion for photography and art. In my free time I like to draw or paint some portraits, do a bit of sculpting or play some Minecraft to relax.</p>
+                {/* <p>Anything from custom sites using HTML, CSS and JavaScript to more modern solutions and workflows like ReactJs, GatsbyJs or WordPress.</p>
+                <p>Besides my love for web technologies and other tech, I also have a passion for photography and art. In my free time I like to draw or paint some portraits, do a bit of sculpting or play some Minecraft to relax.</p> */}
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum natus laboriosam aliquid quisquam nemo alias esse commodi deleniti, accusantium eius aut, veritatis labore, placeat possimus incidunt! Aliquam, iure maiores. Ex ut, laboriosam in quia excepturi quaerat temporibus. Expedita ut numquam, fugit et quis ipsa, illo aperiam similique, aliquid natus incidunt consequuntur. Odit, harum nihil nostrum provident vitae esse aspernatur ducimus impedit illo iure commodi consectetur optio necessitatibus blanditiis eius.</p>
               </div>
             </div>
           </div>
           <div className="about-image__container">
-            <img src={Img2} alt="Aniel Feyt" />
+            {/* <img src={Img2} alt="Aniel Feyt" /> */}
           </div>
         </section>
 
